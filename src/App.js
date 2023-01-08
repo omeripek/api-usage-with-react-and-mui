@@ -51,7 +51,7 @@ const App = () => {
       </Grid>
         
         <Grid item xs={12}>
-              <AreaChart />
+              <AreaChart country = {country}/>
         </Grid>
       </Container>
     </React.Fragment>
